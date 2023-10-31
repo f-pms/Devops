@@ -1,6 +1,9 @@
 on:
   workflow_call:
     inputs:
+      prepare-command:
+        required: true
+        type: string
       build-command:
         required: true
         type: string
@@ -21,6 +24,8 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "Github Actions"
           git merge origin/${{ github.head_ref }} --allow-unrelated-histories
+      - name: Prepare
+        run: ${{ inputs.prepare-command }}
       - name: Build
         run: ${{ inputs.build-command }}
       - name: Test
