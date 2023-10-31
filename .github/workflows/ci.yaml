@@ -1,0 +1,17 @@
+on:
+  workflow_call:
+    inputs:
+      build-command:
+        required: true
+        type: string
+      test-command:
+        required: true
+        type: string
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build
+        run: ${{ inputs.build-command }}
+      - name: Test
+        run: ${{ inputs.test-command }}
