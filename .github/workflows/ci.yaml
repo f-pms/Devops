@@ -1,0 +1,32 @@
+on:
+  workflow_call:
+    inputs:
+      prepare-command:
+        required: true
+        type: string
+      build-command:
+        required: true
+        type: string
+      test-command:
+        required: true
+        type: string
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.base_ref }}
+          fetch-depth: 0
+      - name: Git merge
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "Github Actions"
+          git merge origin/${{ github.head_ref }} --allow-unrelated-histories
+      - name: Prepare
+        run: ${{ inputs.prepare-command }}
+      - name: Build
+        run: ${{ inputs.build-command }}
+      - name: Test
+        run: ${{ inputs.test-command }}
