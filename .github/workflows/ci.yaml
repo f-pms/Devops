@@ -1,9 +1,5 @@
 on:
   workflow_call:
-    secrets:
-      token:
-        description: 'A token passed from the caller workflow'
-        required: true
     inputs:
       prepare-command:
         required: true
@@ -40,12 +36,12 @@ jobs:
           java-version: 17
       - name: Lint PR
         uses: amannn/action-semantic-pull-request@v5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           subjectPattern: ^([A-Z]).+$
           subjectPatternError: The subject "{subject}" found in the pull request title "{title}" didn't match the configured pattern. Please ensure that the subject start with an uppercase character.
           wip: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.token }}
       - name: Prepare
         run: ${{ inputs.prepare-command }}
       - name: Build
