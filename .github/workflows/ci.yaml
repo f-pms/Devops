@@ -34,13 +34,11 @@ jobs:
         with:
           distribution: corretto
           java-version: 17
-      - name: Install commitizen
-        run: |
-          yarn global add commitizen
-          yarn global add cz-conventional-changelog
-          echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
       - name: Lint PR
         uses: amannn/action-semantic-pull-request@v5
+        with:
+          subjectPattern: ^(?![A-Z]).+$
+          subjectPatternError: The subject "{subject}" found in the pull request title "{title}" didn't match the configured pattern. Please ensure that the subject doesn't start with an uppercase character.
         env:
           GITHUB_TOKEN: ${{ github.token }}
       - name: Prepare
