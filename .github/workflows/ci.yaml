@@ -45,7 +45,7 @@ jobs:
           subjectPatternError: The subject "{subject}" found in the pull request title "{title}" didn't match the configured pattern. Please ensure that the subject start with an uppercase character.
           wip: true
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ inputs.token }}
       - name: Prepare
         run: ${{ inputs.prepare-command }}
       - name: Build
