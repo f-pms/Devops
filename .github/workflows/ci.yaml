@@ -1,6 +1,10 @@
 on:
   workflow_call:
     inputs:
+      token:
+        required: true
+        type: string
+        default: ${{ github.token }}
       prepare-command:
         required: true
         type: string
