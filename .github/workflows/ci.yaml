@@ -41,6 +41,16 @@ jobs:
         with:
           subjectPattern: ^([A-Z]).+$
           subjectPatternError: The subject "{subject}" found in the pull request title "{title}" didn't match the configured pattern. Please ensure that the subject start with an uppercase character.
+      
+      - name: Analyze with SonarCloud
+        uses: SonarSource/sonarcloud-github-action@de2e56b42aa84d0b1c5b622644ac17e505c9a049
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}   # Generate a token on Sonarcloud.io, add it to the secrets of this repo with the name SONAR_TOKEN (Settings > Secrets > Actions > add new repository secret)
+        with:
+          args:
+            -Dsonar.projectKey=f-pms_API
+            -Dsonar.organization=f-pms
       - name: Prepare
         run: ${{ inputs.prepare-command }}
       - name: Build
