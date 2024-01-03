@@ -34,6 +34,12 @@ jobs:
         with:
           distribution: corretto
           java-version: 17
+      - name: Prepare
+        run: ${{ inputs.prepare-command }}
+      - name: Build
+        run: ${{ inputs.build-command }}
+      - name: Test
+        run: ${{ inputs.test-command }}
       - name: Lint PR
         uses: amannn/action-semantic-pull-request@v5
         env:
@@ -41,9 +47,3 @@ jobs:
         with:
           subjectPattern: ^([A-Z]).+$
           subjectPatternError: The subject "{subject}" found in the pull request title "{title}" didn't match the configured pattern. Please ensure that the subject start with an uppercase character.
-      - name: Prepare
-        run: ${{ inputs.prepare-command }}
-      - name: Build
-        run: ${{ inputs.build-command }}
-      - name: Test
-        run: ${{ inputs.test-command }}
