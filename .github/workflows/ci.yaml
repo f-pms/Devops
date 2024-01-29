@@ -12,6 +12,10 @@ on:
         type: string
 
 jobs:
+  lint-pr:
+    steps:
+      - name: Lint PR
+        uses: amannn/action-semantic-pull-request@v5
   ci:
     runs-on: ubuntu-latest
     steps:
@@ -40,8 +44,6 @@ jobs:
         run: ${{ inputs.build-command }}
       - name: Test
         run: ${{ inputs.test-command }}
-      - name: Lint PR
-        uses: amannn/action-semantic-pull-request@v5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
