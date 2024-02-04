@@ -12,7 +12,7 @@ jobs:
         with:
           subjectPattern: ^([A-Z]).+$
           subjectPatternError: The subject "{subject}" found in the pull request title "{title}" didn't match the configured pattern. Please ensure that the subject start with an uppercase character.
-      - run: ls -a .
+      - run: pwd
       - name: Checkout
         uses: actions/checkout@v4
         with:
