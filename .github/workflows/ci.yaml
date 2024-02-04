@@ -69,6 +69,7 @@ jobs:
           TYPESCRIPT_ES_CONFIG_FILE: .eslintrc.json
           MARKDOWN_CONFIG_FILE: .markdown-lint.yml
           YAML_CONFIG_FILE: .yaml-lint.yml
+          JAVA_FILE_NAME: google-checks.xml
           TYPESCRIPT_DEFAULT_STYLE: prettier
           VALIDATE_ALL_CODEBASE: true
           VALIDATE_JAVASCRIPT_STANDARD: false
