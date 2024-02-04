@@ -79,3 +79,5 @@ jobs:
           VALIDATE_GITLEAKS: false
           VALIDATE_GITHUB_ACTIONS: false
           VALIDATE_JSCPD: false
+          VALIDATE_SHELL_SHFMT: false
+          VALIDATE_SQLFLUFF: false
