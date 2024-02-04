@@ -18,9 +18,10 @@ jobs:
           repository: 'f-pms/Devops'
           ref: 'huynn/linter'
           token: ${{ secrets.GITHUB_TOKEN }}
-      - run: pwd
+      - run: pwd && ls -la
       - name: Copy
         run: cp -r .github/linters ./
+      - run: pwd && ls -la
       - name: Checkout
         uses: actions/checkout@v4
         with:
