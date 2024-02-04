@@ -12,27 +12,21 @@ jobs:
         with:
           subjectPattern: ^([A-Z]).+$
           subjectPatternError: The subject "{subject}" found in the pull request title "{title}" didn't match the configured pattern. Please ensure that the subject start with an uppercase character.
-      - name: Checkout Devops repository
-        uses: actions/checkout@v4
-        with:
-          repository: 'f-pms/Devops'
-          ref: 'huynn/linter'
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - run: pwd && ls -la
-      - name: Copy
-        run: cp -r .github/linters ./
-      - run: pwd && ls -la
       - name: Checkout
         uses: actions/checkout@v4
         with:
           ref: ${{ github.base_ref }}
           fetch-depth: 0
-      - run: pwd && ls -la
       - name: Git merge
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "Github Actions"
           git merge origin/${{ github.head_ref }} --allow-unrelated-histories
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: linter-huynn/linter
+      - run: pwd && ls -la
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
