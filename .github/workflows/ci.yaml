@@ -1,22 +1,19 @@
 on:
   workflow_call:
-    inputs:
-      prepare-command:
-        required: true
-        type: string
-      build-command:
-        required: true
-        type: string
-      test-command:
-        required: true
-        type: string
 
 jobs:
   ci:
     runs-on: ubuntu-latest
     steps:
+      - name: Lint PR title
+        uses: amannn/action-semantic-pull-request@v5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          subjectPattern: ^([A-Z]).+$
+          subjectPatternError: The subject "{subject}" found in the pull request title "{title}" didn't match the configured pattern. Please ensure that the subject start with an uppercase character.
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: ${{ github.base_ref }}
           fetch-depth: 0
@@ -26,24 +23,23 @@ jobs:
           git config --local user.name "Github Actions"
           git merge origin/${{ github.head_ref }} --allow-unrelated-histories
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 18
-      - name: Setup Java
-        uses: actions/setup-java@v3
-        with:
-          distribution: corretto
-          java-version: 17
-      - name: Prepare
-        run: ${{ inputs.prepare-command }}
-      - name: Build
-        run: ${{ inputs.build-command }}
-      - name: Test
-        run: ${{ inputs.test-command }}
-      - name: Lint PR
-        uses: amannn/action-semantic-pull-request@v5
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+        if: ${{ hashFiles('yarn.lock') != '' }}
+      - name: Lint codebase
+        id: super-linter
+        uses: super-linter/super-linter/slim@v5
         env:
+          DEFAULT_BRANCH: master
+          FILTER_REGEX_EXCLUDE: dist/**/*
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          subjectPattern: ^([A-Z]).+$
-          subjectPatternError: The subject "{subject}" found in the pull request title "{title}" didn't match the configured pattern. Please ensure that the subject start with an uppercase character.
+          TYPESCRIPT_DEFAULT_STYLE: prettier
+          TYPESCRIPT_ES_CONFIG_FILE: ../linters/.eslintrc.json
+          MARKDOWN_CONFIG_FILE: ../linters/.markdown-lint.yml
+          YAML_CONFIG_FILE: ../linters/.yaml-lint.yml
+          VALIDATE_ALL_CODEBASE: true
+          VALIDATE_JAVASCRIPT_STANDARD: false
+          VALIDATE_JSCPD: false
