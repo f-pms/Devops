@@ -26,7 +26,7 @@ jobs:
         with:
           ref: ${{ github.base_ref }}
           fetch-depth: 0
-      - run: pwd
+      - run: pwd && ls -la
       - name: Git merge
         run: |
           git config --local user.email "actions@github.com"
