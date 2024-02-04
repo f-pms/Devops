@@ -18,7 +18,7 @@ jobs:
           name: linters
           path: .github/linters
           overwrite: true
-  ci:
+  lint:
     runs-on: ubuntu-latest
     needs: clone
     steps:
@@ -43,8 +43,8 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: linters
-          path: .github/linters
-      - run: ls -la .github/linters
+          path: /action/lib/.automation
+      - run: ls -la /action/lib/.automation
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -59,9 +59,9 @@ jobs:
           DEFAULT_BRANCH: master
           FILTER_REGEX_EXCLUDE: dist/**/*
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TYPESCRIPT_ES_CONFIG_FILE: ${{ github.workspace }}/.github/linters/.eslintrc.json
-          MARKDOWN_CONFIG_FILE: ${{ github.workspace }}/.github/linters/.markdown-lint.yml
-          YAML_CONFIG_FILE: ${{ github.workspace }}/.github/linters/.yaml-lint.yml
+          TYPESCRIPT_ES_CONFIG_FILE: .eslintrc.json
+          MARKDOWN_CONFIG_FILE: .markdown-lint.yml
+          YAML_CONFIG_FILE: .yaml-lint.yml
           TYPESCRIPT_DEFAULT_STYLE: prettier
           VALIDATE_ALL_CODEBASE: true
           VALIDATE_JAVASCRIPT_STANDARD: false
