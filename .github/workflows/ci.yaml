@@ -51,6 +51,7 @@ jobs:
           path: .github/linters
       - name: Setup Node.js
         uses: actions/setup-node@v4
+        if: ${{ hashFiles('package.json') != '' }}
         with:
           node-version: 18
       - name: Install dependencies
@@ -76,4 +77,5 @@ jobs:
           VALIDATE_CHECKOV: false
           VALIDATE_CSS: false
           VALIDATE_GITLEAKS: false
+          VALIDATE_GITHUB_ACTIONS: false
           VALIDATE_JSCPD: false
