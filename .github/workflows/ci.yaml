@@ -20,7 +20,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
       - run: pwd
       - name: Copy
-        run: cp -r Devops/.github/linters ./
+        run: cp -r .github/linters ./
       - name: Checkout
         uses: actions/checkout@v4
         with:
