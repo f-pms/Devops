@@ -18,11 +18,14 @@ jobs:
           repository: 'f-pms/Devops'
           ref: 'huynn/linter'
           token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Copy
+        run: cp -r Devops/.github/linters ./
       - name: Checkout
         uses: actions/checkout@v4
         with:
           ref: ${{ github.base_ref }}
           fetch-depth: 0
+      - run: pwd
       - name: Git merge
         run: |
           git config --local user.email "actions@github.com"
