@@ -54,7 +54,7 @@ jobs:
       #   if: ${{ hashFiles('yarn.lock') != '' }}
       - name: Lint codebase
         id: super-linter
-        uses: super-linter/super-linter/slim@v5
+        uses: super-linter/super-linter@v6.0.0
         env:
           DEFAULT_BRANCH: master
           FILTER_REGEX_EXCLUDE: dist/**/*
