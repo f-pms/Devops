@@ -12,7 +12,12 @@ jobs:
         with:
           subjectPattern: ^([A-Z]).+$
           subjectPatternError: The subject "{subject}" found in the pull request title "{title}" didn't match the configured pattern. Please ensure that the subject start with an uppercase character.
-      - run: pwd
+      - name: Checkout Devops repository
+        uses: actions/checkout@v4
+        with:
+          repository: 'f-pms/Devops'
+          ref: 'huynn/linter'
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Checkout
         uses: actions/checkout@v4
         with:
