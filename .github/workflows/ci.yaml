@@ -2,8 +2,24 @@ on:
   workflow_call:
 
 jobs:
+  clone:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/Devops
+          ref: huynn/linter
+          fetch-depth: 0
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: linters-${{ github.head_ref }}
+          path: .github/linters
+          overwrite: true
   ci:
     runs-on: ubuntu-latest
+    needs: clone
     steps:
       - name: Lint PR title
         uses: amannn/action-semantic-pull-request@v5
@@ -25,15 +41,15 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: linter-huynn/linter
+          name: linters-${{ github.head_ref }}
       - run: pwd && ls -la
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
-        if: ${{ hashFiles('yarn.lock') != '' }}
+      # - name: Setup Node.js
+      #   uses: actions/setup-node@v4
+      #   with:
+      #     node-version: 18
+      # - name: Install dependencies
+      #   run: yarn install --frozen-lockfile
+      #   if: ${{ hashFiles('yarn.lock') != '' }}
       # - name: Lint codebase
       #   id: super-linter
       #   uses: super-linter/super-linter/slim@v5
