@@ -49,9 +49,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
-        if: ${{ hashFiles('yarn.lock') != '' }}
+      # - name: Install dependencies
+      #   run: yarn install --frozen-lockfile
+      #   if: ${{ hashFiles('yarn.lock') != '' }}
       - name: Lint codebase
         id: super-linter
         uses: super-linter/super-linter/slim@v5
@@ -59,10 +59,9 @@ jobs:
           DEFAULT_BRANCH: master
           FILTER_REGEX_EXCLUDE: dist/**/*
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DEFAULT_WORKSPACE: ${{ github.workspace }}
-          TYPESCRIPT_ES_CONFIG_FILE: .github/linters/.eslintrc.json
-          MARKDOWN_CONFIG_FILE: .github/linters/.markdown-lint.yml
-          YAML_CONFIG_FILE: .github/linters/.yaml-lint.yml
+          TYPESCRIPT_ES_CONFIG_FILE: ${{ github.workspace }}/.github/linters/.eslintrc.json
+          MARKDOWN_CONFIG_FILE: ${{ github.workspace }}/.github/linters/.markdown-lint.yml
+          YAML_CONFIG_FILE: ${{ github.workspace }}/.github/linters/.yaml-lint.yml
           TYPESCRIPT_DEFAULT_STYLE: prettier
           VALIDATE_ALL_CODEBASE: true
           VALIDATE_JAVASCRIPT_STANDARD: false
