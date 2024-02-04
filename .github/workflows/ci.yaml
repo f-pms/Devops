@@ -49,9 +49,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
-      # - name: Install dependencies
-      #   run: yarn install --frozen-lockfile
-      #   if: ${{ hashFiles('yarn.lock') != '' }}
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+        if: ${{ hashFiles('yarn.lock') != '' }}
       - name: Lint codebase
         id: super-linter
         uses: super-linter/super-linter@v6.0.0
