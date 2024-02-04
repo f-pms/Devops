@@ -43,8 +43,8 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: linters
-          path: /action/lib/.automation
-      - run: ls -la /action/lib/.automation
+          path: .github/linters
+      - run: ls -la .github/linters
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -59,9 +59,10 @@ jobs:
           DEFAULT_BRANCH: master
           FILTER_REGEX_EXCLUDE: dist/**/*
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TYPESCRIPT_ES_CONFIG_FILE: .eslintrc.json
-          MARKDOWN_CONFIG_FILE: .markdown-lint.yml
-          YAML_CONFIG_FILE: .yaml-lint.yml
+          DEFAULT_WORKSPACE: ${{ github.workspace }}
+          TYPESCRIPT_ES_CONFIG_FILE: .github/linters/.eslintrc.json
+          MARKDOWN_CONFIG_FILE: .github/linters/.markdown-lint.yml
+          YAML_CONFIG_FILE: .github/linters/.yaml-lint.yml
           TYPESCRIPT_DEFAULT_STYLE: prettier
           VALIDATE_ALL_CODEBASE: true
           VALIDATE_JAVASCRIPT_STANDARD: false
