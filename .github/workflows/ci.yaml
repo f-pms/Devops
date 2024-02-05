@@ -9,8 +9,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: ${{ github.repository_owner }}/Devops
-          # TODO: change to master
-          ref: huynn/linter
           fetch-depth: 0
       - name: Upload artifact
         uses: actions/upload-artifact@v4
