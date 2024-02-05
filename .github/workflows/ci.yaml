@@ -61,6 +61,7 @@ jobs:
         id: super-linter
         uses: super-linter/super-linter@v6.0.0
         env:
+          LOG_LEVEL: DEBUG
           LINTER_RULES_PATH: .github/linters
           DEFAULT_BRANCH: master
           FILTER_REGEX_EXCLUDE: dist/**/*
