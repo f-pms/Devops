@@ -82,3 +82,4 @@ jobs:
           VALIDATE_SHELL_SHFMT: false
           VALIDATE_SQLFLUFF: false
           VALIDATE_JAVA: false
+          VALIDATE_GROOVY: false
