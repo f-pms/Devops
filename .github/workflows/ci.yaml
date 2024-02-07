@@ -10,6 +10,7 @@ jobs:
         with:
           repository: ${{ github.repository_owner }}/Devops
           fetch-depth: 0
+          ref: huynn/line-length
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
