@@ -52,6 +52,7 @@ jobs:
         if: ${{ hashFiles('package.json') != '' }}
         with:
           node-version: 18
+          cache: yarn
       - name: Install dependencies
         run: yarn install --frozen-lockfile
         if: ${{ hashFiles('yarn.lock') != '' }}
