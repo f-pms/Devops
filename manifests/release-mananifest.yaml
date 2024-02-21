@@ -1,0 +1,5 @@
+- environmentName: dev01
+  rms-api-version: 0.0.5
+
+- environmentName: test01
+  rms-api-version: 0.0.5
