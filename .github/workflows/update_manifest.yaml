@@ -1,0 +1,20 @@
+name: Update Deployment Versions
+
+on:
+  workflow_dispatch:
+  schedule:
+
+jobs:
+  update-versions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Workflow in Config Repository
+        run: |
+          curl \
+            -X POST \
+            -H "Accept: application/vnd.github.v3+json" \
+            -H "Authorization: token ${{ secrets.PERSONAL_REPO_HUYBU_TOKEN }}" \
+            https://api.github.com/repos/huybui38/home=infra/actions/workflows/update-deployments.yml/dispatches \
+            -d '{"ref":"main"}'
+        env:
+          TARGET_REPO_TOKEN: ${{ secrets.PERSONAL_REPO_HUYBU_TOKEN }}
