@@ -1,5 +1,7 @@
 - environmentName: dev01
   rms-api-version: 0.3.0
+  rms-client-version: 0.1.1
 
 - environmentName: dev02
   rms-api-version: 0.2.4
+  rms-client-version: 0.1.1
