@@ -3,5 +3,5 @@
   rms-client-version: 1.0.9
 
 - environmentName: dev02
-  rms-api-version: 0.3.0
-  rms-client-version: 1.0.8
+  rms-api-version: 0.3.2
+  rms-client-version: 1.0.9
