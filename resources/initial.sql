@@ -1040,3 +1040,177 @@ INSERT INTO alarm_action (type, message, condition_id) VALUES ('PUSH_NOTIFICATIO
 
 -- NOTE: This is a test email, please ignore it to avoid spamming
 --INSERT INTO alarm_action_recipient (recipient, alarm_action_id) VALUES ('nguyennhathuy.orit@gmail.com', 2)
+
+
+INSERT INTO report_type (name) VALUES ('DAM');
+
+INSERT INTO report (recording_date, sum_json, type_id) VALUES ('2020-01-01', '{"TONG1": 1, "TONG2": 2}', 1);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_1', 1, 'I', 100, 200, 300, 400, 500, 1);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_2', 1, 'I', 100, 200, 300, 400, 500, 1);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_3', 1, 'I', 100, 200, 300, 400, 500, 1);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_4', 1, 'II', 100, 200, 300, 400, 500, 1);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_5', 1, 'II', 100, 200, 300, 400, 500, 1);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_6', 1, 'II', 100, 200, 300, 400, 500, 1);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_7', 1, 'II', 100, 200, 300, 400, 500, 1);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_8', 1, 'II', 100, 200, 300, 400, 500, 1);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_9', 1, 'II', 100, 200, 300, 400, 500, 1);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_10', 1, 'II', 100, 200, 300, 400, 500, 1);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_11', 1, 'II', 100, 200, 300, 400, 500, 1);
+
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_1', 2, 'I', 100, 200, 300, 400, 500, 1);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_2', 2, 'I', 100, 200, 300, 400, 500, 1);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_3', 2, 'I', 100, 200, 300, 400, 500, 1);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_4', 2, 'II', 100, 200, 300, 400, 500, 1);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_5', 2, 'II', 100, 200, 300, 400, 500, 1);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_6', 2, 'II', 100, 200, 300, 400, 500, 1);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_7', 2, 'II', 100, 200, 300, 400, 500, 1);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_8', 2, 'II', 100, 200, 300, 400, 500, 1);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_9', 2, 'II', 100, 200, 300, 400, 500, 1);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_10', 2, 'II', 100, 200, 300, 400, 500, 1);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_11', 2, 'II', 100, 200, 300, 400, 500, 1);
+
+INSERT INTO report (recording_date, sum_json, type_id) VALUES ('2020-01-02', '{"TONG1": 1, "TONG2": 2}', 1);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_1', 1, 'I', 100, 200, 300, 400, 500, 2);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_2', 1, 'I', 100, 200, 300, 400, 500, 2);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_3', 1, 'I', 100, 200, 300, 400, 500, 2);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_4', 1, 'II', 100, 200, 300, 400, 500, 2);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_5', 1, 'II', 100, 200, 300, 400, 500, 2);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_6', 1, 'II', 100, 200, 300, 400, 500, 2);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_7', 1, 'II', 100, 200, 300, 400, 500, 2);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_8', 1, 'II', 100, 200, 300, 400, 500, 2);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_9', 1, 'II', 100, 200, 300, 400, 500, 2);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_10', 1, 'II', 100, 200, 300, 400, 500, 2);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_11', 1, 'II', 100, 200, 300, 400, 500, 2);
+
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_1', 2, 'I', 100, 200, 300, 400, 500, 2);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_2', 2, 'I', 100, 200, 300, 400, 500, 2);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_3', 2, 'I', 100, 200, 300, 400, 500, 2);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_4', 2, 'II', 100, 200, 300, 400, 500, 2);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_5', 2, 'II', 100, 200, 300, 400, 500, 2);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_6', 2, 'II', 100, 200, 300, 400, 500, 2);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_7', 2, 'II', 100, 200, 300, 400, 500, 2);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_8', 2, 'II', 100, 200, 300, 400, 500, 2);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_9', 2, 'II', 100, 200, 300, 400, 500, 2);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_10', 2, 'II', 100, 200, 300, 400, 500, 2);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_11', 2, 'II', 100, 200, 300, 400, 500, 2);
+
+INSERT INTO report (recording_date, sum_json, type_id) VALUES ('2020-01-03', '{"TONG1": 1, "TONG2": 2}', 1);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_1', 1, 'I', 100, 200, 300, 400, 500, 3);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_2', 1, 'I', 100, 200, 300, 400, 500, 3);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_3', 1, 'I', 100, 200, 300, 400, 500, 3);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_4', 1, 'II', 100, 200, 300, 400, 500, 3);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_5', 1, 'II', 100, 200, 300, 400, 500, 3);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_6', 1, 'II', 100, 200, 300, 400, 500, 3);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_7', 1, 'II', 100, 200, 300, 400, 500, 3);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_8', 1, 'II', 100, 200, 300, 400, 500, 3);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_9', 1, 'II', 100, 200, 300, 400, 500, 3);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_10', 1, 'II', 100, 200, 300, 400, 500, 3);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_11', 1, 'II', 100, 200, 300, 400, 500, 3);
+
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_1', 2, 'I', 100, 200, 300, 400, 500, 3);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_2', 2, 'I', 100, 200, 300, 400, 500, 3);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_3', 2, 'I', 100, 200, 300, 400, 500, 3);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_4', 2, 'II', 100, 200, 300, 400, 500, 3);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_5', 2, 'II', 100, 200, 300, 400, 500, 3);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_6', 2, 'II', 100, 200, 300, 400, 500, 3);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_7', 2, 'II', 100, 200, 300, 400, 500, 3);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_8', 2, 'II', 100, 200, 300, 400, 500, 3);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_9', 2, 'II', 100, 200, 300, 400, 500, 3);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_10', 2, 'II', 100, 200, 300, 400, 500, 3);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_11', 2, 'II', 100, 200, 300, 400, 500, 3);
+
+
+INSERT INTO report_type (name) VALUES ('BTP');
+
+INSERT INTO report (recording_date, sum_json, type_id) VALUES ('2020-01-01', '{"TONG1": 1, "TONG2": 2}', 2);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_1', 1, 'I', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_2', 1, 'I', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_3', 1, 'I', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_4', 1, 'I', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_5', 1, 'I', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_6', 1, 'I', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_7', 1, 'I', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_8', 1, 'I', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_9', 1, 'II', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_10', 1, 'III', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_11', 1, 'III', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_12', 1, 'III', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_13', 1, 'III', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_114', 1, 'IV', 100, 200, 300, 400, 500, 4);
+
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_1', 2, 'I', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_2', 2, 'I', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_3', 2, 'I', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_4', 2, 'I', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_5', 2, 'I', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_6', 2, 'I', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_7', 2, 'I', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_8', 2, 'I', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_9', 2, 'II', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_10', 2, 'III', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_11', 2, 'III', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_12', 2, 'III', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_13', 2, 'III', 100, 200, 300, 400, 500, 4);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_114', 2, 'IV', 100, 200, 300, 400, 500, 4);
+
+INSERT INTO report (recording_date, sum_json, type_id) VALUES ('2020-01-02', '{"TONG1": 1, "TONG2": 2}', 2);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_1', 1, 'I', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_2', 1, 'I', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_3', 1, 'I', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_4', 1, 'I', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_5', 1, 'I', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_6', 1, 'I', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_7', 1, 'I', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_8', 1, 'I', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_9', 1, 'II', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_10', 1, 'III', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_11', 1, 'III', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_12', 1, 'III', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_13', 1, 'III', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_114', 1, 'IV', 100, 200, 300, 400, 500, 5);
+
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_1', 2, 'I', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_2', 2, 'I', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_3', 2, 'I', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_4', 2, 'I', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_5', 2, 'I', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_6', 2, 'I', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_7', 2, 'I', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_8', 2, 'I', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_9', 2, 'II', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_10', 2, 'III', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_11', 2, 'III', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_12', 2, 'III', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_13', 2, 'III', 100, 200, 300, 400, 500, 5);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_114', 2, 'IV', 100, 200, 300, 400, 500, 5);
+
+INSERT INTO report (recording_date, sum_json, type_id) VALUES ('2020-01-03', '{"TONG1": 1, "TONG2": 2}', 2);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_1', 1, 'I', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_2', 1, 'I', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_3', 1, 'I', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_4', 1, 'I', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_5', 1, 'I', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_6', 1, 'I', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_7', 1, 'I', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_8', 1, 'I', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_9', 1, 'II', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_10', 1, 'III', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_11', 1, 'III', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_12', 1, 'III', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_13', 1, 'III', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_114', 1, 'IV', 100, 200, 300, 400, 500, 6);
+
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_1', 2, 'I', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_2', 2, 'I', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_3', 2, 'I', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_4', 2, 'I', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_5', 2, 'I', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_6', 2, 'I', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_7', 2, 'I', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_8', 2, 'I', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_9', 2, 'II', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_10', 2, 'III', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_11', 2, 'III', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_12', 2, 'III', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_13', 2, 'III', 100, 200, 300, 400, 500, 6);
+INSERT INTO report_row (indicator, shift, category, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_114', 2, 'IV', 100, 200, 300, 400, 500, 6);
