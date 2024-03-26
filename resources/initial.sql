@@ -1225,11 +1225,10 @@ INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value
 
 --- user/password
 --- admin/123
---- admin2/123
 --- staff/123
-INSERT INTO [F-PMS].dbo.[user] (password,[role],username) VALUES
-	 (N'$2a$10$2naVjZXD56vYFBN/lwgVuuBw8zlCcSBcCdYeRKItW/8iAkgHkZZhe',N'ADMIN',N'admin'),
-	 (N'$2a$10$dGSB8jzLwEIlSR5xLrMmOeYN6/FsJyhvrffoI4TZ0GBGQp7eyMSci',N'ADMIN',N'admin2'),
-	 (N'$2a$10$le/qpO91GLTwldx1NguvNurce6Dbv4EPcN2DI/pvG05wXcH98Ki/u',N'SUPERVISOR',N'staff');
+INSERT INTO [F-PMS].dbo.[user] (password,[role],username,email,full_name) VALUES
+	 (N'$2a$10$S270TSkYAOfs36mwRKDJkuJIV0FXSZUGdX7tMXRseNEsyxEUtM/ZO',N'SUPERVISOR',N'staff',N'staff@gmail.com',N'Nguyen Nhat Huy'),
+	 (N'$2a$10$os4QFI4OzLuT6aLFiNm6LulRB9sPF56Dp8kZTXbmSr1fgkuLfrMVy',N'ADMIN',N'admin',N'admin@gmail.com',N'Bui Ngoc Huy');
+
 
 
