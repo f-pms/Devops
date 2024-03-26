@@ -1220,3 +1220,15 @@ INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_14', 'II', 100, 200, 300, 400, 500, 6);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_15', 'II', 100, 200, 300, 400, 500, 6);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_16', 'II', 100, 200, 300, 400, 500, 6);
+
+
+
+--- user/password
+--- admin/123
+--- staff/123
+INSERT INTO [F-PMS].dbo.[user] (password,[role],username,email,full_name) VALUES
+	 (N'$2a$10$S270TSkYAOfs36mwRKDJkuJIV0FXSZUGdX7tMXRseNEsyxEUtM/ZO',N'SUPERVISOR',N'staff',N'staff@gmail.com',N'Nguyen Nhat Huy'),
+	 (N'$2a$10$os4QFI4OzLuT6aLFiNm6LulRB9sPF56Dp8kZTXbmSr1fgkuLfrMVy',N'ADMIN',N'admin',N'admin@gmail.com',N'Bui Ngoc Huy');
+
+
+
