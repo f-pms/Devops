@@ -1044,7 +1044,7 @@ INSERT INTO alarm_action (type, message, condition_id) VALUES ('PUSH_NOTIFICATIO
 
 INSERT INTO report_type (name) VALUES ('DAM');
 
-INSERT INTO report (recording_date, sum_json, type_id) VALUES ('2020-01-01', '{"TONG1": 1, "TONG2": 2}', 1);
+INSERT INTO report (recording_date, sum_json, type_id) VALUES ('2020-01-01', '[]', 1);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_1', 'I', 100, 200, 300, 400, 500, 1);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_2', 'I', 1000, 2000, 3000, 4000, 5000, 1);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_3', 'I', 100, 200, 300, 400, 500, 1);
@@ -1068,7 +1068,7 @@ INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_10', 'II', 100, 200, 300, 400, 500, 1);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_11', 'II', 100, 200, 300, 400, 500, 1);
 
-INSERT INTO report (recording_date, sum_json, type_id) VALUES ('2020-01-02', '{"TONG1": 1, "TONG2": 2}', 1);
+INSERT INTO report (recording_date, sum_json, type_id) VALUES ('2020-01-02', '[]', 1);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_1', 'I', 100, 200, 300, 400, 500, 2);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_2', 'I', 1000, 2000, 3000, 4000, 5000, 2);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_3', 'I', 100, 200, 300, 400, 500, 2);
@@ -1092,7 +1092,7 @@ INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_10', 'II', 100, 200, 300, 400, 500, 2);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_11', 'II', 100, 200, 300, 400, 500, 2);
 
-INSERT INTO report (recording_date, sum_json, type_id) VALUES ('2020-01-03', '{"TONG1": 1, "TONG2": 2}', 1);
+INSERT INTO report (recording_date, sum_json, type_id) VALUES ('2020-01-03', '[]', 1);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_1', 'I', 100, 200, 300, 400, 500, 3);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_2', 'I', 1000, 2000, 3000, 4000, 5000, 3);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('DAM_3', 'I', 100, 200, 300, 400, 500, 3);
@@ -1119,7 +1119,7 @@ INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value
 
 INSERT INTO report_type (name) VALUES ('BTP');
 
-INSERT INTO report (recording_date, sum_json, type_id) VALUES ('2020-01-01', '{"TONG1": 1, "TONG2": 2}', 2);
+INSERT INTO report (recording_date, sum_json, type_id) VALUES ('2020-01-01', '[]', 2);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_1', 'I', 100, 200, 300, 400, 500, 4);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_2', 'I', 100, 200, 300, 400, 500, 4);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_3', 'I', 100, 200, 300, 400, 500, 4);
@@ -1153,7 +1153,7 @@ INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_15', 'II', 100, 200, 300, 400, 500, 4);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_16', 'II', 100, 200, 300, 400, 500, 4);
 
-INSERT INTO report (recording_date, sum_json, type_id) VALUES ('2020-01-02', '{"TONG1": 1, "TONG2": 2}', 2);
+INSERT INTO report (recording_date, sum_json, type_id) VALUES ('2020-01-02', '[]', 2);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_1', 'I', 100, 200, 300, 400, 500, 5);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_2', 'I', 100, 200, 300, 400, 500, 5);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_3', 'I', 100, 200, 300, 400, 500, 5);
@@ -1187,7 +1187,7 @@ INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_15', 'II', 100, 200, 300, 400, 500, 5);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_16', 'II', 100, 200, 300, 400, 500, 5);
 
-INSERT INTO report (recording_date, sum_json, type_id) VALUES ('2020-01-03', '{"TONG1": 1, "TONG2": 2}', 2);
+INSERT INTO report (recording_date, sum_json, type_id) VALUES ('2020-01-03', '[]', 2);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_1', 'I', 100, 200, 300, 400, 500, 6);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_2', 'I', 100, 200, 300, 400, 500, 6);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_3', 'I', 100, 200, 300, 400, 500, 6);
@@ -1220,3 +1220,42 @@ INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_14', 'II', 100, 200, 300, 400, 500, 6);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_15', 'II', 100, 200, 300, 400, 500, 6);
 INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) VALUES ('BTP_16', 'II', 100, 200, 300, 400, 500, 6);
+
+
+INSERT INTO blueprint (name, description, type) VALUES ('REPORT', 'Holding sensor configurations for Report', 'REPORT');
+INSERT INTO sensor_configuration (address, blueprint_id) VALUES ('%DB100:10.0:BOOL', 16);
+
+INSERT INTO sensor_configuration (address, blueprint_id) VALUES ('%DB101:0.0:REAL', 16);
+INSERT INTO sensor_configuration (address, blueprint_id) VALUES ('%DB101:4.0:REAL', 16);
+INSERT INTO sensor_configuration (address, blueprint_id) VALUES ('%DB101:8.0:REAL', 16);
+INSERT INTO sensor_configuration (address, blueprint_id) VALUES ('%DB101:12.0:REAL', 16);
+INSERT INTO sensor_configuration (address, blueprint_id) VALUES ('%DB101:16.0:REAL', 16);
+
+INSERT INTO sensor_configuration (address, blueprint_id) VALUES ('%DB101:20.0:REAL', 16);
+INSERT INTO sensor_configuration (address, blueprint_id) VALUES ('%DB101:24.0:REAL', 16);
+INSERT INTO sensor_configuration (address, blueprint_id) VALUES ('%DB101:28.0:REAL', 16);
+INSERT INTO sensor_configuration (address, blueprint_id) VALUES ('%DB101:32.0:REAL', 16);
+INSERT INTO sensor_configuration (address, blueprint_id) VALUES ('%DB101:36.0:REAL', 16);
+
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('DAM_1', 'OLD', 'I', 1018, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('DAM_1', 'NEW1', 'I', 1019, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('DAM_1', 'NEW2', 'I', 1020, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('DAM_1', 'NEW3', 'I', 1021, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('DAM_1', 'NEW4', 'I', 1022, 1);
+
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('DAM_1', 'OLD', 'II', 1023, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('DAM_1', 'NEW1', 'II', 1024, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('DAM_1', 'NEW2', 'II', 1025, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('DAM_1', 'NEW3', 'II', 1026, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('DAM_1', 'NEW4', 'II', 1027, 1);
+
+
+--- user/password
+--- admin/123
+--- staff/123
+INSERT INTO [F-PMS].dbo.[user] (password,[role],username,email,full_name) VALUES
+	 (N'$2a$10$S270TSkYAOfs36mwRKDJkuJIV0FXSZUGdX7tMXRseNEsyxEUtM/ZO',N'SUPERVISOR',N'staff',N'staff@gmail.com',N'Nguyen Nhat Huy'),
+	 (N'$2a$10$os4QFI4OzLuT6aLFiNm6LulRB9sPF56Dp8kZTXbmSr1fgkuLfrMVy',N'ADMIN',N'admin',N'admin@gmail.com',N'Bui Ngoc Huy');
+
+
+
