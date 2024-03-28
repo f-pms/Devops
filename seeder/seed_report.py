@@ -13,8 +13,8 @@ def generate_sql_rows():
     sum_json_map = {}
     for i in range(year_count * 365):
         recording_date = datetime.now(pytz.timezone("Asia/Bangkok")).replace(
-            hour=0,
-            minute=0,
+            hour=6,
+            minute=5,
             second=0,
             microsecond=0,
         ) - timedelta(days=i)
