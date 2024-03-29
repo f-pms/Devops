@@ -3,7 +3,7 @@ import json
 from datetime import datetime, timedelta
 import pytz
 
-year_count = 5
+year_count = 6
 date_format_pattern = "%Y-%m-%d %H:%M:%S %:z"
 
 
