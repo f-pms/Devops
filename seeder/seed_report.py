@@ -33,10 +33,10 @@ additional_sum_with_list_specific_index_for_report_type = {
     },
     2: {
         "SUM_BTP_CATEGORY_1": {"list": [1, 2, 3, 4, 5, 6, 7, 8, 9]},
-        "SUM_DAM_CATEGORY_2": {"list": [10]},
-        "SUM_DAM_CATEGORY_3": {"list": [11, 12, 13, 14, 15]},
-        "SUM_DAM_CATEGORY_4.1": {"factor": 0.65, "list": [16]},
-        "SUM_DAM_CATEGORY_4.1": {"factor": 0.35, "list": [16]},
+        "SUM_BTP_CATEGORY_2": {"list": [10]},
+        "SUM_BTP_CATEGORY_3": {"list": [11, 12, 13, 14, 15]},
+        "SUM_BTP_CATEGORY_4.1": {"factor": 0.65, "list": [16]},
+        "SUM_BTP_CATEGORY_4.1": {"factor": 0.35, "list": [16]},
     },
 }
 
