@@ -25,6 +25,21 @@ big_indicators = [
     "BTP_7",
 ]
 
+additional_sum_with_list_specific_index_for_report_type = {
+    1: {
+        "SUM_DAM_CATEGORY_1": {"list": [1, 2, 3]},
+        "SUM_DAM_CATEGORY_2.1": {"list": [4, 5, 6]},
+        "SUM_DAM_CATEGORY_2.2": {"list": [8, 9, 10, 11]},
+    },
+    2: {
+        "SUM_BTP_CATEGORY_1": {"list": [1, 2, 3, 4, 5, 6, 7, 8, 9]},
+        "SUM_DAM_CATEGORY_2": {"list": [10]},
+        "SUM_DAM_CATEGORY_3": {"list": [11, 12, 13, 14, 15]},
+        "SUM_DAM_CATEGORY_4.1": {"factor": 0.65, "list": [16]},
+        "SUM_DAM_CATEGORY_4.1": {"factor": 0.35, "list": [16]},
+    },
+}
+
 
 # Function to generate SQL rows
 def generate_report_sql():
@@ -61,12 +76,14 @@ def generate_report_sql():
 def generate_report_row_sql(type_id, report_id):
     default_double = 10.0
     sql_rows = []
+
+    sql_values = []
     for shift in range(1, 3):
         for deviceNo in range(1, report_type_device_count_map[type_id] + 1):
             indicator = f"{report_type_map[type_id]}_{deviceNo}"
             multiply_factor = get_multiply_factor(indicator)
-            sql = """INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) 
-                    VALUES ('{}', '{}', {}, {}, {}, {}, {}, {});""".format(
+
+            sql_value_string = "('{}', '{}', {}, {}, {}, {}, {}, {})".format(
                 indicator,
                 shift_map[shift],
                 default_double * multiply_factor,
@@ -76,7 +93,13 @@ def generate_report_row_sql(type_id, report_id):
                 default_double * 5 * multiply_factor,
                 report_id,
             )
-            sql_rows.append(sql)
+            sql_values.append(sql_value_string)
+
+    batch_shift_sql = """INSERT INTO report_row (indicator, shift, old_electric_value, new_electric_value1, new_electric_value2, new_electric_value3, new_electric_value4, report_id) 
+                VALUES {};""".format(
+        ",".join(sql_values)
+    )
+    sql_rows.append(batch_shift_sql)
 
     return sql_rows
 
@@ -88,33 +111,62 @@ def get_multiply_factor(indicator):
         return 1
 
 
+def get_sum_specific_list_value(type):
+    result = []
+
+    if type == 1:
+        for i in range(1, 4):
+            result.append(random.randint(1, 100))
+    else:
+        for i in range(1, 17):
+            if i != 10:
+                result.append(random.randint(1, 100))
+
+    return result
+
 def get_sumjson_shift_random(type_id):
     sumPeak = random.randint(1, 100)
     sumOffPeak = random.randint(1, 100)
     sumStandard = random.randint(1, 100)
 
-    if type_id == 1:
-        sum_fields = ", ".join(
-            [
-                '"SUM_SPECIFIC_{}":{}'.format(j, random.randint(1, 100))
-                for j in range(1, 4)
-            ]
+    sum_specifics_vals = get_sum_specific_list_value(type_id)
+    sum_list_str = list(
+        map(
+            lambda x, i: '"SUM_SPECIFIC_{}":{}'.format(i + 1, x),
+            sum_specifics_vals,
+            range(0, sum_specifics_vals.__len__()),
         )
-    else:
-        sum_fields = ", ".join(
-            [
-                '"SUM_SPECIFIC_{}":{}'.format(j, random.randint(1, 100))
-                for j in range(1, 17)
-                if j != 10
-            ]
-        )
+    )
+
+    additionalSums = additional_sum_with_list_specific_index_for_report_type[type_id]
+    additionalSumsStrs = []
+    for key, value in additionalSums.items():
+        list_specific = map(lambda x: sum_specifics_vals[0], value["list"])
+
+        if "factor" in value:
+            additionalSumsStrs.append(
+                '"{}":{}*{}'.format(key, sum(list_specific), value["factor"])
+            )
+        else:
+            additionalSumsStrs.append('"{}":{}'.format(key, sum(list_specific)))
+
+    sum_list_str.extend(additionalSumsStrs)
+    sum_specifics_str = ", ".join(sum_list_str)
+    # sum_specifics_vals = get_sum_specific_list_value(type_id)
+    # alist = map(
+    #     lambda x, i: '"SUM_SPECIFIC_{}":{}'.format(i + 1, x),
+    #     sum_specifics_vals,
+    #     range(0, sum_specifics_vals.__len__()),
+    # )
+
+    # sum_specifics_str = ", ".join(alist)
 
     shift = '{{"SUM_TOTAL": {}, "SUM_PEAK": {}, "SUM_OFFPEAK": {},	"SUM_STANDARD": {}, {}}}'.format(
         sumPeak + sumOffPeak + sumStandard,
         sumPeak,
         sumOffPeak,
         sumStandard,
-        sum_fields,
+        sum_specifics_str,
     )
     return shift
 
