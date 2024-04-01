@@ -36,7 +36,7 @@ additional_sum_with_list_specific_index_for_report_type = {
         "SUM_BTP_CATEGORY_2": {"list": [10]},
         "SUM_BTP_CATEGORY_3": {"list": [11, 12, 13, 14, 15]},
         "SUM_BTP_CATEGORY_4.1": {"factor": 0.65, "list": [16]},
-        "SUM_BTP_CATEGORY_4.1": {"factor": 0.35, "list": [16]},
+        "SUM_BTP_CATEGORY_4.2": {"factor": 0.35, "list": [16]},
     },
 }
 
