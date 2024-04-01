@@ -124,6 +124,7 @@ def get_sum_specific_list_value(type):
 
     return result
 
+
 def get_sumjson_shift_random(type_id):
     sumPeak = random.randint(1, 100)
     sumOffPeak = random.randint(1, 100)
@@ -145,7 +146,7 @@ def get_sumjson_shift_random(type_id):
 
         if "factor" in value:
             additionalSumsStrs.append(
-                '"{}":{}*{}'.format(key, sum(list_specific), value["factor"])
+                '"{}":{}'.format(key, sum(list_specific) * value["factor"])
             )
         else:
             additionalSumsStrs.append('"{}":{}'.format(key, sum(list_specific)))
