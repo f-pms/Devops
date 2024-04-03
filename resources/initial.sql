@@ -1648,7 +1648,7 @@ INSERT INTO sensor_configuration (address, blueprint_id) VALUES ('%DB45:788.0:RE
 INSERT INTO sensor_configuration (address, blueprint_id) VALUES ('%DB45:880.0:REAL', 16);
 INSERT INTO sensor_configuration (address, blueprint_id) VALUES ('%DB45:884.0:REAL', 16);
 INSERT INTO sensor_configuration (address, blueprint_id) VALUES ('%DB45:892.0:REAL', 16);
-INSERT INTO sensor_configuration (address, blueprint_id) VALUES ('%DB45:900x.0:REAL', 16);
+INSERT INTO sensor_configuration (address, blueprint_id) VALUES ('%DB45:900.0:REAL', 16);
 INSERT INTO sensor_configuration (address, blueprint_id) VALUES ('%DB45:904.0:REAL', 16);
 INSERT INTO sensor_configuration (address, blueprint_id) VALUES ('%DB45:912.0:REAL', 16);
 INSERT INTO sensor_configuration (address, blueprint_id) VALUES ('%DB45:920.0:REAL', 16);
