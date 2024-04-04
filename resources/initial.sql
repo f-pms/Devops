@@ -1994,198 +1994,198 @@ INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, 
 
 --- report type: BTP
 --- tags of the "First Shift" section
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_1', 'OLD', 'I', 1348, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_1', 'NEW1', 'I', 1349, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_1', 'NEW2', 'I', 1352, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_1', 'NEW3', 'I', 1355, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_1', 'NEW4', 'I', 1358, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_1', 'OLD', 'I', 1348, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_1', 'NEW1', 'I', 1349, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_1', 'NEW2', 'I', 1352, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_1', 'NEW3', 'I', 1355, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_1', 'NEW4', 'I', 1358, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_2', 'OLD', 'I', 1361, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_2', 'NEW1', 'I', 1362, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_2', 'NEW2', 'I', 1365, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_2', 'NEW3', 'I', 1368, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_2', 'NEW4', 'I', 1371, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_2', 'OLD', 'I', 1361, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_2', 'NEW1', 'I', 1362, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_2', 'NEW2', 'I', 1365, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_2', 'NEW3', 'I', 1368, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_2', 'NEW4', 'I', 1371, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_3', 'OLD', 'I', 1374, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_3', 'NEW1', 'I', 1375, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_3', 'NEW2', 'I', 1378, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_3', 'NEW3', 'I', 1381, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_3', 'NEW4', 'I', 1384, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_3', 'OLD', 'I', 1374, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_3', 'NEW1', 'I', 1375, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_3', 'NEW2', 'I', 1378, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_3', 'NEW3', 'I', 1381, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_3', 'NEW4', 'I', 1384, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_4', 'OLD', 'I', 1387, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_4', 'NEW1', 'I', 1388, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_4', 'NEW2', 'I', 1391, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_4', 'NEW3', 'I', 1394, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_4', 'NEW4', 'I', 1397, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_4', 'OLD', 'I', 1387, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_4', 'NEW1', 'I', 1388, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_4', 'NEW2', 'I', 1391, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_4', 'NEW3', 'I', 1394, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_4', 'NEW4', 'I', 1397, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_5', 'OLD', 'I', 1400, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_5', 'NEW1', 'I', 1401, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_5', 'NEW2', 'I', 1404, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_5', 'NEW3', 'I', 1407, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_5', 'NEW4', 'I', 1410, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_5', 'OLD', 'I', 1400, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_5', 'NEW1', 'I', 1401, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_5', 'NEW2', 'I', 1404, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_5', 'NEW3', 'I', 1407, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_5', 'NEW4', 'I', 1410, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_6', 'OLD', 'I', 1413, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_6', 'NEW1', 'I', 1414, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_6', 'NEW2', 'I', 1417, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_6', 'NEW3', 'I', 1420, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_6', 'NEW4', 'I', 1423, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_6', 'OLD', 'I', 1413, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_6', 'NEW1', 'I', 1414, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_6', 'NEW2', 'I', 1417, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_6', 'NEW3', 'I', 1420, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_6', 'NEW4', 'I', 1423, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_7', 'OLD', 'I', 1426, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_7', 'NEW1', 'I', 1427, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_7', 'NEW2', 'I', 1430, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_7', 'NEW3', 'I', 1433, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_7', 'NEW4', 'I', 1436, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_7', 'OLD', 'I', 1426, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_7', 'NEW1', 'I', 1427, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_7', 'NEW2', 'I', 1430, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_7', 'NEW3', 'I', 1433, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_7', 'NEW4', 'I', 1436, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_8', 'OLD', 'I', 1439, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_8', 'NEW1', 'I', 1440, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_8', 'NEW2', 'I', 1443, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_8', 'NEW3', 'I', 1446, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_8', 'NEW4', 'I', 1449, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_8', 'OLD', 'I', 1439, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_8', 'NEW1', 'I', 1440, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_8', 'NEW2', 'I', 1443, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_8', 'NEW3', 'I', 1446, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_8', 'NEW4', 'I', 1449, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_9', 'OLD', 'I', 1452, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_9', 'NEW1', 'I', 1453, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_9', 'NEW2', 'I', 1456, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_9', 'NEW3', 'I', 1459, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_9', 'NEW4', 'I', 1462, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_9', 'OLD', 'I', 1452, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_9', 'NEW1', 'I', 1453, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_9', 'NEW2', 'I', 1456, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_9', 'NEW3', 'I', 1459, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_9', 'NEW4', 'I', 1462, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_10', 'OLD', 'I', 1466, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_10', 'NEW1', 'I', 1471, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_10', 'NEW2', 'I', 1469, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_10', 'NEW3', 'I', 1472, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_10', 'NEW4', 'I', 1475, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_10', 'OLD', 'I', 1466, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_10', 'NEW1', 'I', 1471, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_10', 'NEW2', 'I', 1469, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_10', 'NEW3', 'I', 1472, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_10', 'NEW4', 'I', 1475, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_11', 'OLD', 'I', 1479, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_11', 'NEW1', 'I', 1480, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_11', 'NEW2', 'I', 1483, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_11', 'NEW3', 'I', 1486, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_11', 'NEW4', 'I', 1489, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_11', 'OLD', 'I', 1479, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_11', 'NEW1', 'I', 1480, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_11', 'NEW2', 'I', 1483, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_11', 'NEW3', 'I', 1486, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_11', 'NEW4', 'I', 1489, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_12', 'OLD', 'I', 1492, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_12', 'NEW1', 'I', 1493, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_12', 'NEW2', 'I', 1496, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_12', 'NEW3', 'I', 1499, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_12', 'NEW4', 'I', 1502, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_12', 'OLD', 'I', 1492, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_12', 'NEW1', 'I', 1493, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_12', 'NEW2', 'I', 1496, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_12', 'NEW3', 'I', 1499, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_12', 'NEW4', 'I', 1502, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_13', 'OLD', 'I', 1505, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_13', 'NEW1', 'I', 1506, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_13', 'NEW2', 'I', 1509, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_13', 'NEW3', 'I', 1512, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_13', 'NEW4', 'I', 1515, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_13', 'OLD', 'I', 1505, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_13', 'NEW1', 'I', 1506, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_13', 'NEW2', 'I', 1509, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_13', 'NEW3', 'I', 1512, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_13', 'NEW4', 'I', 1515, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_14', 'OLD', 'I', 1518, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_14', 'NEW1', 'I', 1519, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_14', 'NEW2', 'I', 1522, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_14', 'NEW3', 'I', 1525, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_14', 'NEW4', 'I', 1528, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_14', 'OLD', 'I', 1518, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_14', 'NEW1', 'I', 1519, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_14', 'NEW2', 'I', 1522, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_14', 'NEW3', 'I', 1525, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_14', 'NEW4', 'I', 1528, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_15', 'OLD', 'I', 1531, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_15', 'NEW1', 'I', 1532, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_15', 'NEW2', 'I', 1535, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_15', 'NEW3', 'I', 1538, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_15', 'NEW4', 'I', 1541, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_15', 'OLD', 'I', 1531, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_15', 'NEW1', 'I', 1532, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_15', 'NEW2', 'I', 1535, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_15', 'NEW3', 'I', 1538, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_15', 'NEW4', 'I', 1541, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_16', 'OLD', 'I', 1545, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_16', 'NEW1', 'I', 1546, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_16', 'NEW2', 'I', 1549, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_16', 'NEW3', 'I', 1552, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_16', 'NEW4', 'I', 1555, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_16', 'OLD', 'I', 1545, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_16', 'NEW1', 'I', 1546, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_16', 'NEW2', 'I', 1549, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_16', 'NEW3', 'I', 1552, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_16', 'NEW4', 'I', 1555, 2);
 
 --- tags of the "Second Shift" section
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_1', 'OLD', 'II', 1563, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_1', 'NEW1', 'II', 1564, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_1', 'NEW2', 'II', 1567, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_1', 'NEW3', 'II', 1570, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_1', 'NEW4', 'II', 1573, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_1', 'OLD', 'II', 1563, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_1', 'NEW1', 'II', 1564, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_1', 'NEW2', 'II', 1567, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_1', 'NEW3', 'II', 1570, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_1', 'NEW4', 'II', 1573, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_2', 'OLD', 'II', 1576, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_2', 'NEW1', 'II', 1577, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_2', 'NEW2', 'II', 1580, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_2', 'NEW3', 'II', 1583, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_2', 'NEW4', 'II', 1586, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_2', 'OLD', 'II', 1576, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_2', 'NEW1', 'II', 1577, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_2', 'NEW2', 'II', 1580, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_2', 'NEW3', 'II', 1583, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_2', 'NEW4', 'II', 1586, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_3', 'OLD', 'II', 1589, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_3', 'NEW1', 'II', 1590, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_3', 'NEW2', 'II', 1593, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_3', 'NEW3', 'II', 1596, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_3', 'NEW4', 'II', 1599, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_3', 'OLD', 'II', 1589, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_3', 'NEW1', 'II', 1590, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_3', 'NEW2', 'II', 1593, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_3', 'NEW3', 'II', 1596, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_3', 'NEW4', 'II', 1599, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_4', 'OLD', 'II', 1602, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_4', 'NEW1', 'II', 1603, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_4', 'NEW2', 'II', 1606, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_4', 'NEW3', 'II', 1609, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_4', 'NEW4', 'II', 1612, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_4', 'OLD', 'II', 1602, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_4', 'NEW1', 'II', 1603, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_4', 'NEW2', 'II', 1606, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_4', 'NEW3', 'II', 1609, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_4', 'NEW4', 'II', 1612, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_5', 'OLD', 'II', 1615, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_5', 'NEW1', 'II', 1616, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_5', 'NEW2', 'II', 1619, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_5', 'NEW3', 'II', 1622, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_5', 'NEW4', 'II', 1625, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_5', 'OLD', 'II', 1615, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_5', 'NEW1', 'II', 1616, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_5', 'NEW2', 'II', 1619, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_5', 'NEW3', 'II', 1622, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_5', 'NEW4', 'II', 1625, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_6', 'OLD', 'II', 1628, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_6', 'NEW1', 'II', 1629, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_6', 'NEW2', 'II', 1632, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_6', 'NEW3', 'II', 1635, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_6', 'NEW4', 'II', 1638, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_6', 'OLD', 'II', 1628, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_6', 'NEW1', 'II', 1629, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_6', 'NEW2', 'II', 1632, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_6', 'NEW3', 'II', 1635, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_6', 'NEW4', 'II', 1638, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_7', 'OLD', 'II', 1641, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_7', 'NEW1', 'II', 1642, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_7', 'NEW2', 'II', 1645, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_7', 'NEW3', 'II', 1648, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_7', 'NEW4', 'II', 1651, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_7', 'OLD', 'II', 1641, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_7', 'NEW1', 'II', 1642, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_7', 'NEW2', 'II', 1645, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_7', 'NEW3', 'II', 1648, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_7', 'NEW4', 'II', 1651, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_8', 'OLD', 'II', 1654, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_8', 'NEW1', 'II', 1655, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_8', 'NEW2', 'II', 1658, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_8', 'NEW3', 'II', 1661, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_8', 'NEW4', 'II', 1664, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_8', 'OLD', 'II', 1654, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_8', 'NEW1', 'II', 1655, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_8', 'NEW2', 'II', 1658, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_8', 'NEW3', 'II', 1661, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_8', 'NEW4', 'II', 1664, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_9', 'OLD', 'II', 1667, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_9', 'NEW1', 'II', 1668, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_9', 'NEW2', 'II', 1671, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_9', 'NEW3', 'II', 1674, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_9', 'NEW4', 'II', 1677, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_9', 'OLD', 'II', 1667, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_9', 'NEW1', 'II', 1668, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_9', 'NEW2', 'II', 1671, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_9', 'NEW3', 'II', 1674, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_9', 'NEW4', 'II', 1677, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_10', 'OLD', 'II', 1681, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_10', 'NEW1', 'II', 1682, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_10', 'NEW2', 'II', 1685, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_10', 'NEW3', 'II', 1688, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_10', 'NEW4', 'II', 1691, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_10', 'OLD', 'II', 1681, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_10', 'NEW1', 'II', 1682, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_10', 'NEW2', 'II', 1685, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_10', 'NEW3', 'II', 1688, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_10', 'NEW4', 'II', 1691, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_11', 'OLD', 'II', 1695, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_11', 'NEW1', 'II', 1696, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_11', 'NEW2', 'II', 1699, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_11', 'NEW3', 'II', 1702, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_11', 'NEW4', 'II', 1705, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_11', 'OLD', 'II', 1695, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_11', 'NEW1', 'II', 1696, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_11', 'NEW2', 'II', 1699, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_11', 'NEW3', 'II', 1702, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_11', 'NEW4', 'II', 1705, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_12', 'OLD', 'II', 1708, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_12', 'NEW1', 'II', 1709, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_12', 'NEW2', 'II', 1712, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_12', 'NEW3', 'II', 1715, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_12', 'NEW4', 'II', 1718, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_12', 'OLD', 'II', 1708, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_12', 'NEW1', 'II', 1709, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_12', 'NEW2', 'II', 1712, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_12', 'NEW3', 'II', 1715, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_12', 'NEW4', 'II', 1718, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_13', 'OLD', 'II', 1721, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_13', 'NEW1', 'II', 1722, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_13', 'NEW2', 'II', 1725, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_13', 'NEW3', 'II', 1728, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_13', 'NEW4', 'II', 1731, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_13', 'OLD', 'II', 1721, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_13', 'NEW1', 'II', 1722, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_13', 'NEW2', 'II', 1725, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_13', 'NEW3', 'II', 1728, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_13', 'NEW4', 'II', 1731, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_14', 'OLD', 'II', 1734, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_14', 'NEW1', 'II', 1735, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_14', 'NEW2', 'II', 1738, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_14', 'NEW3', 'II', 1741, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_14', 'NEW4', 'II', 1744, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_14', 'OLD', 'II', 1734, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_14', 'NEW1', 'II', 1735, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_14', 'NEW2', 'II', 1738, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_14', 'NEW3', 'II', 1741, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_14', 'NEW4', 'II', 1744, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_15', 'OLD', 'II', 1747, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_15', 'NEW1', 'II', 1748, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_15', 'NEW2', 'II', 1751, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_15', 'NEW3', 'II', 1754, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_15', 'NEW4', 'II', 1757, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_15', 'OLD', 'II', 1747, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_15', 'NEW1', 'II', 1748, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_15', 'NEW2', 'II', 1751, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_15', 'NEW3', 'II', 1754, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_15', 'NEW4', 'II', 1757, 2);
 
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_16', 'OLD', 'II', 1761, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_16', 'NEW1', 'II', 1762, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_16', 'NEW2', 'II', 1765, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_16', 'NEW3', 'II', 1768, 1);
-INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_16', 'NEW4', 'II', 1771, 1);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_16', 'OLD', 'II', 1761, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_16', 'NEW1', 'II', 1762, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_16', 'NEW2', 'II', 1765, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_16', 'NEW3', 'II', 1768, 2);
+INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_16', 'NEW4', 'II', 1771, 2);
 
 
 --- user/password
@@ -2194,6 +2194,5 @@ INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, 
 INSERT INTO [F-PMS].dbo.[user] (password,[role],username,email,full_name) VALUES
 	 (N'$2a$10$S270TSkYAOfs36mwRKDJkuJIV0FXSZUGdX7tMXRseNEsyxEUtM/ZO',N'SUPERVISOR',N'staff',N'staff@gmail.com',N'Nguyen Nhat Huy'),
 	 (N'$2a$10$os4QFI4OzLuT6aLFiNm6LulRB9sPF56Dp8kZTXbmSr1fgkuLfrMVy',N'ADMIN',N'admin',N'admin@gmail.com',N'Bui Ngoc Huy');
-
 
 
