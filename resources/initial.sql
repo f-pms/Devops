@@ -1854,6 +1854,9 @@ INSERT INTO sensor_configuration (address, blueprint_id) VALUES ('%DB45:2892.0:R
 --- 5th category
 INSERT INTO sensor_configuration (address, blueprint_id) VALUES ('%DB45:2928.0:REAL', 16);
 
+-- missing record: BTP10_PERIOD1_NEW1
+INSERT INTO sensor_configuration (address, blueprint_id) VALUES ('%DB45:1604.0:REAL', 16);
+
 
 --- tags for data capturing of historical reports
 --- report type: DAM
@@ -2186,9 +2189,6 @@ INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, 
 INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_16', 'NEW2', 'II', 1765, 2);
 INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_16', 'NEW3', 'II', 1768, 2);
 INSERT INTO report_schedule (indicator, period, shift, sensor_configuration_id, type_id) VALUES ('BTP_16', 'NEW4', 'II', 1771, 2);
-
--- missing record: BTP10_PERIOD1_NEW1
-INSERT INTO sensor_configuration (address, blueprint_id) VALUES ('%DB45:1604.0:REAL', 16);
 
 
 --- user/password
