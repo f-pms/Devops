@@ -19,7 +19,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          repository: ${{ github.repository_owner }}/UI
+          repository: f-pms/UI
           fetch-depth: 0
 
       - name: Setup Node.js
@@ -47,7 +47,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          repository: ${{ github.repository_owner }}/API
+          repository: f-pms/API
           fetch-depth: 0
 
       - name: Setup Java
