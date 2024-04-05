@@ -13,6 +13,9 @@ jobs:
   build-ui:
     runs-on: ubuntu-latest
     steps:
+      - name: Echo
+        run: echo "Hello, ${{ github.repository_owner }}"
+
       - name: Checkout
         uses: actions/checkout@v4
         with:
