@@ -2,9 +2,8 @@ name: Build jar
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - huynn/deployment-preparation
+  pull_request:
+    branches: [main]
 
 permissions:
   contents: read
